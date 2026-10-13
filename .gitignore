@@ -1,0 +1,56 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Data (optional - for large datasets)
+# *.csv
+# *.xlsx
+# data/
+# *.zip
+
+# Model training artifacts
+*.h5
+model_checkpoint_*
+training_logs/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment files
+.env
+.env.local
+*.secrets
+
+# Temporary files
+*.tmp
+*.bak
